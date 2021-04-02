@@ -167,3 +167,116 @@ html {
     font-weight: 600;
     align-self: center;
 }
+
+/* Contact Form */
+
+.form-introduction {
+    color: rgba(0, 0, 0, .35);
+    font-size: 3rem;
+    text-align: center;
+    font-family: "Englebert", sans-serif;
+}
+
+.fa-paper-plane {
+    margin-left: 10px;
+}
+
+.form {
+    width: 70vw;
+    background: rgba(1, 76, 120, 0.8);
+    border-radius: 30px;
+    margin: 40px auto 0 auto;
+    padding: 30px 50px;
+}
+
+.form-ilustration {
+    display: flex;
+    justify-content: space-around;
+}
+
+.label-input {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.label-textarea {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-labels {
+    color: white;
+    font-size: 1.4rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.form-inputs,
+.form-textarea {
+    background-color: #E9EAE9;
+    border: 2px solid #F26E11;
+    border-radius: 15px;
+    padding: 10px 20px;
+    transition: background-color .5s;
+}
+
+.form-inputs {
+    margin-left: 10px;
+}
+
+.form-textarea {
+    margin-top: 20px;
+    resize: none;
+}
+
+.form-inputs:focus,
+.form-textarea:focus {
+    background-color: #C5C6C5;
+}
+
+
+.illustration-question {
+    align-self: center;
+    width: 300px;
+    font-size: 1.25rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.form-button {
+    position: relative;
+    background-color: #F26E11;
+    font-family: "Englebert", sans-serif;
+    font-size: 2.2rem;
+    padding: 5px 50px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 3px 3px 4px 2px rgba(0, 0, 0, 0.25);
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 40px auto 0 auto;
+    display: block;
+}
+
+
+.message {
+    background-color: #F26E11;
+    position: absolute;
+    top: -100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    transition: transform .7s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-button:hover .message {
+    transform: translateY(100%);
+}
