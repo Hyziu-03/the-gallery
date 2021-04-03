@@ -1,31 +1,33 @@
+
 <!DOCTYPE HTML>
 <html lang="en-US">
-
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE,Edge=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	<title>The Gallery of Remarkable People</title>
-	<link rel="icon" href="svg/atlas.svg">
+	
+	<link rel="icon" href="img/atlas.png">
 	<link rel="stylesheet" href="main.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	
 	<!--[if lt IE 9]>
             <script src = "https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity = "sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin = "anonymous"></script>
     <![endif]-->
 </head>
-
 <body>
 	<div class="container">
 		<header>
 			<div class="header">
-				<div class="logo" tabindex="0"> <i class="fas fa-atlas"></i> &nbsp; The Gallery of Remarkable People </div>
+				<div class="logo" id="logo" tabindex="0"> <i class="fas fa-atlas"></i> &nbsp; The Gallery of Remarkable People </div>
 				<nav>
 					<div class="navigation">
 						<ol class="navigation-list">
-							<li class="navigation-item" tabindex="0">About Us</li>
-							<li class="navigation-item" tabindex="0">Offer</li>
-							<li class="navigation-item" tabindex="0">Contact</li>
+							<li class="navigation-item" id = "about-us" tabindex="0">About Us</li>
+							<li class="navigation-item" id = "offer" tabindex="0">Offer</li>
+							<li class="navigation-item" id = "contact" tabindex="0">Contact</li>
 						</ol>
 					</div>
 				</nav>
@@ -37,8 +39,10 @@
 					<div class="intro">
 						<h2 class="headline" tabindex="0">Profiles of famous computer<br>scientists in one place!</h2>
 						<div class="description-button">
-							<p class="description" tabindex="0">Have you ever really gone through biographies of famous people from the IT industry? Now you can do it quickly and enjoyably. Scroll down for more!</p> <a href="#" tabindex="0" class="btn-hand-down"><i class="far fa-hand-point-down"></i></a> </div>
-					</div> <img src="img/software-engineer.png" class="illustration" alt="The girl is using her yellow portable computer. There is another huge laptop in the background's illustration"> </div>
+							<p class="description" tabindex="0">Have you ever really gone through biographies of famous people from the IT industry? Now you can do it quickly and enjoyably. Scroll down for more!</p> <a href="#" tabindex="0" class="btn-hand-down"><i class="far fa-hand-point-down"></i></a> 
+						</div>
+					</div> 
+					<img src="img/software-engineer.png" class="illustration" alt="The girl is using her yellow portable computer. There is another huge laptop in the background's illustration"> </div>
 			</section>
 			<svg xmlns="http://www.w3.org/2000/svg" height="575" id="svg-element">
 				<g transform="translate(0, 520)">
@@ -48,45 +52,41 @@
 					<path fill="#0099FF" fill-opacity="1" d="M0,224L24,224C48,224,96,224,144,186.7C192,149,240,75,288,69.3C336,64,384,128,432,154.7C480,181,528,171,576,154.7C624,139,672,117,720,106.7C768,96,816,96,864,117.3C912,139,960,181,1008,181.3C1056,181,1104,139,1152,117.3C1200,96,1248,96,1296,106.7C1344,117,1392,139,1416,149.3L1440,160L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"></path>
 				</g>
 			</svg>
-			<section>
-				<div class="categories-container">
+			<section style = "height: 0;">
+				<div class="categories-container" id = "categories-container">
 					<p class="categories-introduction" tabindex="0">Browse your favorite category!&emsp;<i class="far fa-smile-beam"></i></i>
 					</p>
 					<ol class="category-list">
-						<li class="category" tabindex="0">Notable Programmers
-							<br>
-							<br><i class="fas category-icon fa-code-branch"></i></li>
-						<li class="category" tabindex="0">Social Media Creators
-							<br>
-							<br><i class="fas category-icon fa-hashtag"></i></li>
-						<li class="category" tabindex="0">Notable Computer Designers
-							<br>
-							<br><i class="fas category-icon fa-paint-brush"></i></li>
-						<li class="category" tabindex="0">Famous Cryptographers
-							<br>
-							<br><i class="far category-icon fa-keyboard"></i></li>
+						<li class="category" tabindex="0">Notable Programmers<br><br><i class="fas category-icon fa-code-branch"></i></li>
+						<li class="category" tabindex="0">Social Media Creators<br><br><i class="fas category-icon fa-hashtag"></i></li>
+						<li class="category" tabindex="0">Notable Computer Designers<br><br><i class="fas category-icon fa-paint-brush"></i></li>
+						<li class="category" tabindex="0">Famous Cryptographers<br><br><i class="far category-icon fa-keyboard"></i></li>
 					</ol>
 				</div>
 			</section>
 			<section>
-				<div class="form-container">
+				<div class="form-container" id = "form-container">
 					<p class="form-introduction">Get in touch with us here...<i class="far fa-paper-plane"></i></p>
 					<div class="form">
 						<div class="form-ilustration">
 							<form method="" action="">
 								<div class="label-input">
 									<label for="name" class="form-labels">Your name:</label>
-									<input type="text" id="name" class="form-inputs"> </div>
+									<input type="text" id="name" class="form-inputs"> 
+								</div>
 								<div class="label-input">
 									<label for="phone-number" class="form-labels">Your phone:</label>
-									<input type="tel" id="phone-number" class="form-inputs"> </div>
+									<input type="tel" id="phone-number" class="form-inputs"> 
+								</div>
 								<div class="label-textarea">
 									<label for="message" class="form-labels">What do you want to tell us?</label>
 									<textarea name="" id=" message" cols="30" rows="7" class="form-textarea"></textarea>
 								</div>
-							</form> <img src="ask-customer-feedback.png" class="illustration-question" alt="In the background illustration there is a huge question mark. In the foreground illustration there is two men"> </div>
-						<button class="form-button">Submit <span class="message"><i
-                                    class="far fa-envelope"></i></span></button>
+							</form> 
+							<img src="img/ask-customer-feedback.png" class="illustration-question" alt="Here is a huge question mark. In the foreground there are two men"> </div>
+						<button class="form-button">
+							Submit! <span class="message"><i class="far fa-envelope"></i></span>
+						</button>
 					</div>
 				</div>
 			</section>
@@ -94,12 +94,12 @@
 		<footer>
 			<div class="footer">
 				<p class="footer-text" tabindex="0">All rights reserved &emsp; &copy; &emsp; Filip Kubala / Szymon Hyziak</p>
-				<p class="social-media-icons"> <i class="fab fa-facebook" tabindex="0"></i> &emsp; <i class="fab fa-youtube" tabindex="0"></i> &emsp; <i class="fab fa-snapchat-ghost" tabindex="0"></i> &emsp; <i class="fab fa-linkedin-in" tabindex="0"></i> </p>
+				<p class="social-media-icons"> <i class="fab fa-facebook"id = "facebook" tabindex="0"></i> &emsp; <i class="fab fa-youtube" id = "youtube" tabindex="0"></i> &emsp; <i class="fab fa-snapchat-ghost" id="snapchat" tabindex="0"></i> &emsp; <i class="fab fa-linkedin-in" id="linkedin" tabindex="0"></i> </p>
 			</div>
 		</footer>
 	</div>
 	<script src="scripts/svg-positioning.js" async></script>
+	<script src="scripts/links.js" async></script>
 	<script src="https://kit.fontawesome.com/d1ae74e7ee.js" crossorigin="anonymous" async></script>
 </body>
-
 </html>
