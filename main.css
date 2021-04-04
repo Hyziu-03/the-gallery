@@ -1,182 +1,16 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-html {
-    font-size: 16px;
-    --almost-black: rgba(0, 0, 0, 0.75);
-    color: var(--almost-black, black);
-}
-
-.container {
-    margin: 0 auto;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-/* ? Nagłówek */
-
-.header {
-    background: #FFFFFF;
-    box-shadow: 0px 5px 50px rgba(0, 0, 0, 0.25);
-    border-radius: 10px;
-    display: flex;
-    padding: 10px 0px 7.5px 0px;
-    margin: 5px;
-}
-
-.logo {
-    font-family: "Englebert", sans-serif;
-    font-size: 2rem;
-    font-weight: 900;
-    line-height: 150%;
-    transition: .5s all ease;
-}
-
-.logo:hover {
-    color: #F26E11;
-    cursor: pointer;
-}
-
-.fa-atlas {
-    font-weight: 900;
-    font-size: 2rem;
-    line-height: 150%;
-    margin-left: 50px;
-}
-
-/* ? Klasyczna Nawigacja */
-
-.navigation-list {
-    list-style-type: none;
-    text-transform: uppercase;
-
-    display: flex;
-    align-items: center;
-}
-
-.navigation-item {
-    padding: 12.5px 17.5px;
-    user-select: none;
-    transition: .5s all ease;
-}
-
-.navigation-item:hover {
-    text-shadow: 0px 5px 2.5px rgba(0, 0, 0, 1);
-    cursor: pointer;
-}
-
-/* ? Nawigacja z Kategoriami */
-
-.category-list {
-    list-style-type: none;
-}
-
-/*/Landing - Page*/
-
-.landing-page {
-    position: relative;
-    margin-top: 60px;
-    /*3.75rem*/
-    display: flex;
-    justify-content: space-evenly;
-
-}
-
-.rectangle {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 85%;
-    width: 20px;
-    background-color: #F26E11;
-    border-radius: 10px;
-}
-
-.headline {
-    font-size: 2.65rem;
-    /*42px*/
-    font-family: "Englebert", sans-serif;
-    letter-spacing: 3px;
-    margin-top: 20px;
-    /*1.25rem*/
-}
-
-.description-button {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 15px;
-    /*1.5rem*/
-}
-
-.description {
-    font-size: 1.4rem;
-    /*22px*/
-    font-family: "Montserrat", sans-serif;
-    line-height: 1.7;
-    font-weight: 600;
-    width: 460px;
-}
-
-.btn-hand-down {
-    position: relative;
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    text-decoration: none;
-    background-color: #014C78;
-    color: white;
-}
-
-.btn-hand-down::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: #269FE5;
-    clip-path: circle(0);
-    transition: clip-path .9s, filter .7s;
-}
-
-.btn-hand-down:hover::before {
-    clip-path: circle(100%);
-    filter: drop-shadow(6px 6px 10px rgba(0, 0, 0, 0.25));
-}
-
-.fa-hand-point-down {
-    font-size: 3.1rem;
-    /*50px*/
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.illustration {
-    width: 300px;
-    font-size: 1.25rem;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    align-self: center;
-}
-* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 html {
 	font-size: 16px;
 	color: rgba(0, 0, 0, 0.75);
 	overflow-x: hidden;
+	scroll-behavior: smooth;
 }
 
 .container {
@@ -205,7 +39,7 @@ html {
 	font-weight: 900;
 	line-height: 150%;
 	transition: .5s all ease;
-	margin-left: 20px;
+	margin-left: 30px;
 }
 
 .logo:hover {
@@ -245,7 +79,6 @@ html {
 .landing-page {
 	position: relative;
 	margin-top: 30px;
-    /* Równe 3.75rem. */
 	display: flex;
 	justify-content: space-evenly;
 }
@@ -262,11 +95,9 @@ html {
 
 .headline {
 	font-size: 2.5rem;
-    /* Równe 42px */
 	font-family: "Englebert", sans-serif;
 	letter-spacing: 1px;
 	margin-top: 20px;
-    /* Równe 1.25rem */;
 }
 
 .description-button {
@@ -274,7 +105,6 @@ html {
 	justify-content: space-around;
 	align-items: center;
 	margin-top: 5px;
-    /* Równe 1.5rem */;
 }
 
 .description {
@@ -393,7 +223,7 @@ html {
 	width: 60vw;
 	background: rgba(1, 76, 120, 0.8);
 	border-radius: 30px;
-	margin: 40px auto;
+	margin: 20px auto 40px auto;
 	padding: 30px;
 }
 
