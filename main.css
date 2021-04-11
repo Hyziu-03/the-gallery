@@ -78,6 +78,7 @@ html {
     cursor: pointer;
 }
 
+
 /* ? Hamburger Menu */
 
 .hamburger {
@@ -401,6 +402,8 @@ html {
     line-height: 175%;
 }
 
+
+
 .fab {
     user-select: none;
     transition: .5s all ease;
@@ -597,9 +600,8 @@ html {
     .navigation-list {
         position: fixed;
         top: 60px;
-        left: 0;
+        left: 10px;
         flex-direction: column;
-        margin: 0 5px;
         transform: translateX(100vw);
         background-color: white;
         transition: transform .8s;
@@ -607,17 +609,40 @@ html {
     }
 
     .navigation-item {
+        position: relative;
         width: 100%;
         text-align: center;
         padding: 20px 0;
         background-color: white;
         border-radius: 5px;
-        border: 2.5px solid #014166;
+        border: 3px solid #014166;
+        outline: none;
+    }
+
+    .navigation-item::after {
+        content: "";
+        position: absolute;
+        top: -3px;
+        left: 80%;
+        width: calc(20% + 3px);
+        height: calc(100% + 6px);
+        background-color: #014166;
+        clip-path: circle(0 at 80% 20%);
+        transition: clip-path .7s;
+
+    }
+
+    .navigation-item:not(:nth-child(1)) {
         margin-top: 5px;
     }
 
-    .navigation-item:focus {
-        background-color: #e7e7e7;
+
+    .navigation-item:focus::after {
+        clip-path: circle(65% at 80% 20%);
+    }
+
+    .navigation-item:hover {
+        text-shadow: none;
     }
 }
 
@@ -628,7 +653,7 @@ html {
 
     .footer-text {
         width: 180px;
-        line-height: 2;
+        line-height: 1.5;
     }
 
     .social-media-icons {
@@ -655,7 +680,7 @@ html {
     }
 
     .navigation-list {
-        top: 54px;
+        top: 48px;
     }
 
     .form {
