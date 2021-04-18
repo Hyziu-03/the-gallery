@@ -9,8 +9,8 @@
     <title>The Gallery of Remarkable People</title>
 
     <link rel="icon" href="img/atlas.png">
-    <link rel="stylesheet" href="subpage-styles.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/subpage-styles.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
@@ -22,14 +22,15 @@
 <body>
     <div class="container">
         <header>
-            <div class="header-container">
                 <div class="header" id="header">
                     <div class="logo" id="logo" tabindex="0">
                         <i class="fas fa-atlas"></i> &nbsp; The Gallery of Remarkable People
                     </div>
                     <nav>
                         <div class="navigation">
-                            <span class="navigation-item" id="go-back" tabindex="0"><a href="index.html" class="link">Go Back </a></span>
+                            <ol class="navigation-list">
+                                <li class="navigation-item" id="go-back" tabindex="0"><a href="index.html" class="link">Go Back </a></li>
+                            </ol>
                             <button class="hamburger">
                                 <span class="line"></span>
                                 <span class="line"></span>
@@ -38,27 +39,32 @@
                         </div>
                     </nav>
                 </div>
-            </div>
         </header>
         <main>
             <article>
                 <div class="introduction-container">
+                    <i class="fas fa-arrow-right"></i>
                     <div class="introduction-text">
-                        <h1 class="introduction-headline">Headline goes here!</h1>
+                        <h1 class="introduction-headline">William Henry Gates III</h1>
                         <p class="introduction-paragraph">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque luctus hendrerit commodo.
-                            Vestibulum vitae felis id urna malesuada pretium non nec nulla. Cras justo sem, tempor ac
-                            malesuada eget, scelerisque ut magna. Nunc commodo nulla ut luctus porttitor.
+                            Born October 28, 1955, is an American business magnate, software
+                            developer, investor, author, landowner, and philanthropist. He is a co-founder of Microsoft
+                            Corporation. During his career at Microsoft, he held the positions of chairman,
+                            chief executive officer, president and chief software architect.
                         </p>
                         <button class="learn-more-btn">Learn more!</button>
                     </div>
                     <div class="image-container">
-                        <img src="img/bill-gates.jpg" alt="Bill Gates in a suit." class="introduction-image">
+                        <img src="img/bill-gates.jpeg" alt="Bill Gates in a suit." class="introduction-image">
                     </div>
                 </div>
             </article>
             <section>
-                <div class="filler"></div>
+                <div class="filler">
+                    <img alt="" src="img/study.png" class="filler-img">Gates made a guest appearance as himself on the
+                    TV show The Big Bang Theory. The episode on which he appeared was appropriately entitled "The Gates
+                    Excitation."
+                </div>
             </section>
             <article>
                 <div class="tags-container">
@@ -93,7 +99,7 @@
     </div>
 
     <script src="https://kit.fontawesome.com/d1ae74e7ee.js" crossorigin="anonymous" defer></script>
-    <script src="navbar-mobile.js" defer></script>
+    <script src="js/navbar-mobile.js" defer></script>
 </body>
 
 </html>
