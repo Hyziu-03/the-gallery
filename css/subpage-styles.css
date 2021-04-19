@@ -97,3 +97,140 @@
     right: 75px;
     font-size: 1.75rem;
 }
+
+/*Paragraph*/
+.paragraph-container {
+    width: 70vw;
+    margin: 60px auto 0 auto;
+}
+
+.tags-container {
+    display: flex;
+    margin: 0 0 20px 25px;
+}
+
+.tag {
+    background-color: #F26E11;
+    padding: 8px 16px;
+    margin: 0 5px;
+    color: white;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+}
+
+.paragraph {
+    background-color: #014C78;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    padding: 60px 20px;
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.paragraph-text {
+    color: white;
+    width: 350px;
+    font-family: "Montserrat", sans-serif;
+    line-height: 2.0;
+}
+
+/*Newsletter*/
+
+.newsletter {
+    background: #149EBC36;
+    padding: 30px 0;
+    margin: 80px 0 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.newsletter-text {
+    font-family: 'Englebert', sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.75);
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.newsletter-email-button {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter-email {
+    position: relative;
+    width: 250px;
+    height: 45px;
+}
+
+.email-form {
+    font-family: 'Englebert', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #F26E11;
+    border-radius: 20px;
+    background-color: #E9EAE9;
+    outline: none;
+    font-size: 1.2rem;
+    padding-left: 20px;
+}
+
+.label-email {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: rgba(0, 0, 0, 0.75);
+    transition: transform .5s;
+    font-family: 'Englebert', sans-serif;
+    font-size: 1.2rem;
+}
+
+.email-form:focus~.label-email,
+.email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
+    transform: translateY(-35px);
+}
+
+.newsletter-btn {
+    font-family: 'Englebert', sans-serif;
+    position: relative;
+    padding: 8px 20px;
+    z-index: 10;
+    border: 2px solid #F26E11;
+    background-color: #E9EAE9;
+    color: #F26E11;
+    box-shadow: 7.5px 7.5px 2.5px 2.5px #00000059;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 1.25rem;
+    transition: color .3s;
+    margin-left: 20px;
+}
+
+.newsletter-btn::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -110%;
+    width: 110%;
+    height: 100%;
+    background-color: #F26E11;
+    transition: transform .6s cubic-bezier(.6, 2.2, .6, -0.2);
+    z-index: -2;
+}
+
+.newsletter-btn:hover::after {
+    transform: translateX(100%);
+}
+
+.newsletter-btn:hover {
+    color: white;
+}
