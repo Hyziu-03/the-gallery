@@ -219,9 +219,9 @@
     content: "";
     position: absolute;
     top: 0;
-    left: -110%;
-    width: 110%;
-    height: 100%;
+    left: calc(-100% - 2px);
+    width: calc(100% + 2px);
+    height: calc(100% + 2px);
     background-color: #F26E11;
     transition: transform .6s cubic-bezier(.6, 2.2, .6, -0.2);
     z-index: -2;
