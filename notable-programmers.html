@@ -29,7 +29,7 @@
                     <nav>
                         <div class="navigation">
                             <ol class="navigation-list">
-                                <li class="navigation-item" id="go-back" tabindex="0"><a href="index.html" class="link">Go Back </a></li>
+                                <li class="navigation-item" id="go-back" tabindex="0"><a href="index.html" class="link" tabindex="-1">Go Back</a></li>
                             </ol>
                             <button class="hamburger">
                                 <span class="line"></span>
@@ -43,24 +43,24 @@
         <main>
             <article>
                 <div class="introduction-container">
-                    <i class="fas fa-arrow-right"></i>
                     <div class="introduction-text">
-                        <h1 class="introduction-headline">William Henry Gates III</h1>
-                        <p class="introduction-paragraph">
+                        <h1 class="introduction-headline" tabindex="0">William Henry Gates III</h1>
+                        <p class="introduction-paragraph" tabindex="0">
                             Born October 28, 1955, is an American business magnate, software
                             developer, investor, author, landowner, and philanthropist. He is a co-founder of Microsoft
                             Corporation. During his career at Microsoft, he held the positions of chairman,
                             chief executive officer, president and chief software architect.
                         </p>
-                        <button class="learn-more-btn">Learn more!</button>
+                        <button class="learn-more-btn" id="learn-more">Learn more!</button>
                     </div>
-                    <div class="image-container">
-                        <img src="img/bill-gates.jpeg" alt="Bill Gates in a suit." class="introduction-image">
+                    <div class="image-container" title="Bill Gates looking into space. We can see a reflection of a computer screen in his glasses' lenses.">
+                        <img src="img/bill-gates.jpeg" class="introduction-image">
                     </div>
+                    <i class="fas fa-arrow-right" tabindex="0"></i>
                 </div>
             </article>
             <section>
-                <div class="filler">
+                <div class="filler" tabindex="0"> 
                     <img alt="" src="img/study.png" class="filler-img">Gates made a guest appearance as himself on the
                     TV show The Big Bang Theory. The episode on which he appeared was appropriately entitled "The Gates
                     Excitation."
@@ -69,30 +69,31 @@
            <article>
                 <div class="paragraph-container">
                     <div class="tags-container">
-                        <div class="tag">History</div>
-                        <div class="tag">Feat</div>
-                        <div class="tag">History</div>
+                        <div class="tag" tabindex="0">Childhood</div>
+                        <div class="tag" tabindex="0">Microsoft</div>
                     </div>
                     <div class="paragraph">
-                        <img src="img/bill-gates.jpg" alt="Bill Gates in a suit." class="introduction-image">
-                        <p class="paragraph-text">
-                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
-                            been the industry's standard dummy text ever since the 1500s when an unknown printer took a
-                            galley of type and scrambled. Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry. Lorem Ipsum has been.
+                        <div title="Bill Gates looking into space. We can see a reflection of a computer screen in his glasses' lenses.">
+                            <img src="img/bill-gates.jpeg" alt="Bill Gates looking into space. We can see a reflection of a computer screen in his glasses' lenses." class="introduction-image" tabindex="0">   
+                        </div>
+                        <p class="paragraph-text" tabindex="0">
+                            Gates was born and raised in Seattle, Washington. In 1975, he co-founded Microsoft with
+                            childhood friend Paul Allen. It went on to become the world's
+                            largest personal computer software company. During the late 1990s, he had been criticized for
+                            his business tactics, which have been considered anti-competitive. 
                         </p>
                     </div>
                 </div>
             </article>
             <section>
-                <div class="newsletter">
-                    <span class="newsletter-text">Subscribe to our newsletter!</span>
+                <div class="newsletter" tabindex="0">
+                    <span class="newsletter-text">Subscribe to our newsletter! &nbsp; <i class="far fa-paper-plane"></i></span>
                     <div class="newsletter-email-button">
                         <div class="newsletter-email">
-                            <input type="email" id="input-email" class="email-form" placeholder=" " required>
+                            <input type="email" id="input-email" class="email-form" placeholder=" " required title="Enter your email here.">
                             <label for="input-email" class="label-email">E-mail</label>
                         </div>
-                        <button class="newsletter-btn" type="submit">Sign Up!</button>
+                        <button class="newsletter-btn" type="submit" title="Click to sign up for our newsletter!">Sign Up!</button>
                     </div>
                 </div>
             </section>
@@ -101,16 +102,17 @@
             <div class="footer">
                 <p class="footer-text" tabindex="0">All rights reserved &emsp; &copy; &emsp; Filip Kubala / Szymon Hyziak</p>
                 <p class="social-media-icons">
-                    <a href="https://www.facebook.com/" class="link" target="_blank"><i class="fab fa-facebook" id="facebook" title="Facebook" tabindex="0"></i></a> &emsp;
-                    <a href="https://www.youtube.com/" target="_blank" class="link"><i class="fab fa-youtube" id="youtube" title="YouTube" tabindex="0"></i></a>&emsp;
-                    <a href="https://www.snapchat.com/" target="_blank" class="link"><i class="fab fa-snapchat-ghost" id="snapchat" title="Snapchat" tabindex="0"></i></a> &emsp;
-                    <a href="https://pl.linkedin.com/" target="_blank" class="link"><i class="fab fa-linkedin-in" id="linkedin" title="Linkedin" tabindex="0"></i></a>
+                    <a href="https://www.facebook.com/" class="link" target="_blank"><i class="fab fa-facebook" id="facebook" title="Facebook"></i></a> &emsp;
+                    <a href="https://www.youtube.com/" target="_blank" class="link"><i class="fab fa-youtube" id="youtube" title="YouTube"></i></a>&emsp;
+                    <a href="https://www.snapchat.com/" target="_blank" class="link"><i class="fab fa-snapchat-ghost" id="snapchat" title="Snapchat"></i></a> &emsp;
+                    <a href="https://pl.linkedin.com/" target="_blank" class="link"><i class="fab fa-linkedin-in" id="linkedin" title="Linkedin"></i></a>
                 </p>
             </div>
         </footer>
     </div>
 
     <script src="https://kit.fontawesome.com/d1ae74e7ee.js" crossorigin="anonymous" defer></script>
+    <script src="js/single-ink-with-offset.js" defer></script>
     <script src="js/navbar-mobile.js" defer></script>
 </body>
 
