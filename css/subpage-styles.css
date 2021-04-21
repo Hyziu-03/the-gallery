@@ -209,7 +209,7 @@
     top:50%;
     left: 20px;
     color: rgba(0, 0, 0, 0.75);
-    transform:translate(-50%);
+    transform:translateY(-50%);
     transition: transform .5s;
     font-family: 'Englebert', sans-serif;
     font-size: 1.2rem;
