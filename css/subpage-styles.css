@@ -207,9 +207,10 @@
 
 .label-email {
     position: absolute;
-    top: 10px;
+    top:50%;
     left: 20px;
     color: rgba(0, 0, 0, 0.75);
+    transform:translateY(-50%);
     transition: transform .5s;
     font-family: 'Englebert', sans-serif;
     font-size: 1.2rem;
@@ -278,11 +279,6 @@
 @media(max-width:950px) {
     .introduction-paragraph {
         margin: 20px 70px;
-    }
-
-
-    .label-email {
-        top: 12px;
     }
 
     .introduction-image {
@@ -371,10 +367,6 @@
     .paragraph-text {
         margin-top: 30px;
     }
-
-    .label-email {
-        top: 13px;
-    }
 }
 
 @media(max-width:650px) {
@@ -429,6 +421,9 @@
     .introduction-container {
         margin-top: 50px;
     }
+    .filler{
+        line-height:1.5;
+    }
 }
 
 @media(max-width:400px) {
@@ -458,7 +453,7 @@
 
 @media(max-width:320px) {
     .newsletter-btn {
-        padding: 8px 16px;
+        padding: 12px 16px;
         margin-left: 15px;
     }
 
