@@ -150,6 +150,7 @@
 
 .paragraph-image {
     width: 350px;
+    border-radius: 15px;
 }
 
 .paragraph-text {
