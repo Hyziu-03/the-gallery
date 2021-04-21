@@ -218,7 +218,7 @@
 
 .email-form:focus~.label-email,
 .email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
-    transform: translateY(-35px);
+    transform: translateY(-50px);
 }
 
 .newsletter-btn {
@@ -367,6 +367,11 @@
     .paragraph-text {
         margin-top: 30px;
     }
+    
+.email-form:focus~.label-email,
+.email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
+    transform: translateY(-35px);
+}
 }
 
 @media(max-width:650px) {
