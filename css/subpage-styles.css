@@ -217,7 +217,7 @@
 
 .email-form:focus~.label-email,
 .email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
-    transform: translateY(-50% - 30px);
+    transform: translateY(-35px);
 }
 
 .newsletter-btn {
@@ -278,11 +278,6 @@
 @media(max-width:950px) {
     .introduction-paragraph {
         margin: 20px 70px;
-    }
-
-
-    .label-email {
-        top: 12px;
     }
 
     .introduction-image {
@@ -370,10 +365,6 @@
 
     .paragraph-text {
         margin-top: 30px;
-    }
-
-    .label-email {
-        top: 13px;
     }
 }
 
