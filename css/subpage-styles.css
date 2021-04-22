@@ -158,6 +158,7 @@
     font-family: "Montserrat", sans-serif;
     line-height: 2.0;
     text-align: justify;
+    text-align-last: auto;
 }
 
 /* ? Newsletter Tile */
@@ -258,7 +259,7 @@
     color: #FFFFFF;
 }
 
-/*Media Queries*/
+/* ? Media Queries */
 
 @media(max-width:1200px) {
     .paragraph-container {
@@ -368,10 +369,10 @@
         margin-top: 30px;
     }
     
-.email-form:focus~.label-email,
-.email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
-    transform: translateY(-35px);
-}
+    .email-form:focus~.label-email,
+    .email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
+        transform: translateY(-35px);
+    }
 }
 
 @media(max-width:650px) {

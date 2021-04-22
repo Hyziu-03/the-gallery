@@ -5,6 +5,11 @@
     cursor: pointer;
 }
 
+#about-us:hover {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    cursor: default;
+}
+
 /* ? Landing Page */
 
 .landing-page {
