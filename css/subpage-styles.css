@@ -258,17 +258,18 @@
 .newsletter-btn::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: calc(-100% - 2px);
+    top: -7px;
+    left: calc(-100% - 22px);
     width: calc(100% + 2px);
-    height: calc(100% + 2px);
+    height: calc(100% + 4px);
     background-color: #F26E11;
     transition: transform .6s cubic-bezier(.6, 2.2, .6, -0.2);
     z-index: -2;
+    padding: 5px 10px;
 }
 
 .newsletter-btn:hover::after {
-    transform: translateX(calc(100% - 2px));
+    transform: translateX(calc(100% - 10px));
 }
 
 .newsletter-btn:hover {
