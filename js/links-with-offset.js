@@ -41,7 +41,7 @@ landingPage.addEventListener('click', function() {
 });
 
 notableProgrammers.addEventListener('click', function() {
-    window.location.href = 'bill-gates.html';
+    window.location.href = 'programmers/bill-gates.html';
 });
 
 socialMediaCreators.addEventListener('click', function() {
