@@ -267,8 +267,8 @@
 .newsletter-btn::after {
     content: "";
     position: absolute;
-    top: -1px;
-    left: calc(100% - 32px);
+    top: -2px;
+    left: calc(-100% - 34px);
     width: calc(100% + 4px);
     height: calc(100px + 4px);
     background-color: #F26E11;
@@ -278,7 +278,7 @@
 }
 
 .newsletter-btn:hover::after {
-    transform: translateX(100% - 4px);
+    transform: translateX(calc(100% - 20px));
 }
 
 .newsletter-btn:hover {
