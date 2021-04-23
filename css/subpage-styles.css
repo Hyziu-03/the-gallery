@@ -258,7 +258,7 @@
 .newsletter-btn::after {
     content: "";
     position: absolute;
-    top: -8px;
+    top: -4px;
     left: calc(-100% - 32px);
     width: calc(100% + 2px);
     height: calc(100% + 4px);
@@ -269,7 +269,7 @@
 }
 
 .newsletter-btn:hover::after {
-    transform: translateX(calc(100% - 17px));
+    transform: translateX(calc(100% - 20px));
 }
 
 .newsletter-btn:hover {
