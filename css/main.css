@@ -44,6 +44,8 @@ html {
     line-height: 150%;
     transition: .5s all ease;
     margin-left: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .fa-atlas {
@@ -475,7 +477,7 @@ html {
 @media(max-width:350px) {
     .logo {
         margin-left: 10px;
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
 
     .headline {
@@ -505,6 +507,16 @@ html {
 
     .footer-text {
         width: 120px;
+    }
+}
+
+@media(max-width:320px) {
+    html {
+        font-size: 10px;
+    }
+
+    .logo {
+        font-size: 1.2rem;
     }
 }
 
