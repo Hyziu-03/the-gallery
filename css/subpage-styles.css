@@ -36,7 +36,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
     width: 15vw;
 }
 
@@ -96,8 +95,8 @@
 
 .fa-arrow-right {
     position: absolute;
-    top: 175px;
-    right: 100px;
+    top: 45%;
+    right: 40px;
     font-size: 1.75rem;
     padding: 10px;
     border-radius: 50%;
@@ -225,10 +224,10 @@
 
 .label-email {
     position: absolute;
-    top:50%;
+    top: 50%;
     left: 20px;
     color: rgba(0, 0, 0, 0.75);
-    transform:translateY(-50%);
+    transform: translateY(-50%);
     transition: transform .5s;
     font-family: 'Englebert', sans-serif;
     font-size: 1.2rem;
@@ -282,6 +281,10 @@
     .paragraph-container {
         width: 80vw;
     }
+
+    .fa-arrow-right {
+        right: 20px;
+    }
 }
 
 @media(max-width:1100px) {
@@ -300,44 +303,52 @@
     }
 
     .introduction-image {
-        width: 325px;
+        width: 300px;
     }
 
     .paragraph-image {
         width: 275px;
     }
+
+    .fa-arrow-right {
+        right: 5px;
+    }
 }
 
 @media(max-width:900px) {
+    .paragraph-container {
+        width: 85vw;
+    }
+
     .paragraph-text {
         width: 300px;
     }
 
     .introduction-paragraph {
-        margin: 20px 60px;
+        margin: 20px 40px 20px 40px;
+    }
+
+    .introduction-image {
+        width: 275px;
     }
 }
 
 @media(max-width:800px) {
-    .introduction-image {
-        width: 300px;
-        margin-top: 0;
+    .introduction-text {
+        margin-right: 80px;
+    }
+
+    .introduction-paragraph {
+        margin: 20px 40px;
+        font-size: 1.15rem;
     }
 
     .paragraph-image {
         width: 250px;
     }
-
-    .paragraph-container {
-        width: 85vw;
-    }
-
-    .introduction-paragraph {
-        margin: 20px 40px 20px 50px;
-    }
 }
 
-@media(max-width:700px) {
+@media(max-width:740px) {
     .introduction-container {
         flex-direction: column;
         align-items: center;
@@ -364,13 +375,12 @@
     }
 
     .introduction-image {
-        border-radius: 50%;
+        margin-top: 30px;
     }
 
     .fa-arrow-right {
-        top: 50%;
-        right: 5px;
-        transform: translateY(-50%);
+        top: 18%;
+        right: 10%;
     }
 
     .paragraph-container {
@@ -385,7 +395,7 @@
     .paragraph-text {
         margin-top: 30px;
     }
-    
+
     .email-form:focus~.label-email,
     .email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
         transform: translateY(-35px);
@@ -426,6 +436,15 @@
     .paragraph {
         padding: 40px 20px;
     }
+
+    .paragraph-text {
+        width: 275px;
+    }
+
+    .fa-arrow-right {
+        top: 16%;
+        right: 5%;
+    }
 }
 
 @media(max-width:450px) {
@@ -444,8 +463,13 @@
     .introduction-container {
         margin-top: 50px;
     }
-    .filler{
-        line-height:1.5;
+
+    .introduction-image {
+        width: 225px;
+    }
+
+    .filler {
+        line-height: 1.5;
     }
 }
 
@@ -457,24 +481,38 @@
     .newsletter-email {
         width: 200px;
     }
+
+    .fa-arrow-right {
+        top: 15%;
+        right: 0;
+    }
 }
 
 @media(max-width:370px) {
     .paragraph-text {
-        width: 225px;
+        width: 200px;
     }
 
     .paragraph-image {
-        width: 200px;
+        width: 180px;
     }
 
     .introduction-paragraph {
         margin: 20px;
         font-size: 1.4rem;
     }
+
+    .introduction-image {
+        width: 200px;
+    }
+
 }
 
 @media(max-width:320px) {
+    .paragraph-container {
+        width: 90vw;
+    }
+
     .newsletter-btn {
         padding: 12px 16px;
         margin-left: 15px;
@@ -482,5 +520,13 @@
 
     .newsletter-email {
         width: 175px;
+    }
+
+    .introduction-image {
+        width: 175px;
+    }
+
+    .fa-arrow-right {
+        top: 13%;
     }
 }
