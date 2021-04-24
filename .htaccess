@@ -1,0 +1,12 @@
+### PROTECT FILES ###
+<FilesMatch "\.(htaccess|htpasswd|ini|fla|psd|log|sh)$">
+Order Allow,Deny
+Deny from all
+</FilesMatch>
+
+RewriteEngine on
+RewriteRule strona-glowna index.html
+RewriteRule programmers/bill-gates programmers/bill-gates.html
+RewriteRule programmers/ada-augusta-lovelace programmers/ada-lovelace.html
+RewriteRule cryptographers/marian-rejewski cryptographers/marian-rejewski.html
+RewriteRule cryptographers/elizabeth-smith-friedman cryptographers/elizabeth-smith-friedman.html

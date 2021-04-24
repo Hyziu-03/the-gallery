@@ -41,7 +41,7 @@ landingPage.addEventListener('click', function() {
 });
 
 notableProgrammers.addEventListener('click', function() {
-    window.location.href = 'programmers/bill-gates.html';
+    window.location.href = 'programmers/bill-gates';
 });
 
 socialMediaCreators.addEventListener('click', function() {
@@ -53,5 +53,5 @@ notableDesigners.addEventListener('click', function() {
 });
 
 famousCryptographers.addEventListener('click', function() {
-    window.location.href = 'cryptographers/marian-rejewski.html';
+    window.location.href = 'cryptographers/marian-rejewski';
 });
