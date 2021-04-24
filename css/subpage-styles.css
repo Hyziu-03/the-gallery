@@ -176,6 +176,7 @@
 .paragraph-image {
     width: 275px;
     border-radius: 15px;
+    pointer-events: none;
 }
 
 .paragraph-text {
@@ -240,6 +241,7 @@
     transition: transform .5s;
     font-family: 'Englebert', sans-serif;
     font-size: 1.2rem;
+    user-select: none;
 }
 
 .email-form:focus~.label-email,
@@ -262,6 +264,7 @@
     font-size: 1.25rem;
     transition: color .3s;
     margin-left: 20px;
+    user-select: none;
 }
 
 .newsletter-btn::after {
