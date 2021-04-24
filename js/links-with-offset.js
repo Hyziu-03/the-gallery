@@ -45,11 +45,11 @@ notableProgrammers.addEventListener('click', function() {
 });
 
 socialMediaCreators.addEventListener('click', function() {
-    window.location.href = '';
+    window.location.href = 'social-media-creators/kevin-systrom';
 });
 
 notableDesigners.addEventListener('click', function() {
-    window.location.href = '';
+    window.location.href = 'designers/steve-jobs';
 });
 
 famousCryptographers.addEventListener('click', function() {
