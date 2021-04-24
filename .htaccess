@@ -10,3 +10,6 @@ RewriteRule programmers/bill-gates programmers/bill-gates.html
 RewriteRule programmers/ada-augusta-lovelace programmers/ada-lovelace.html
 RewriteRule cryptographers/marian-rejewski cryptographers/marian-rejewski.html
 RewriteRule cryptographers/elizabeth-smith-friedman cryptographers/elizabeth-smith-friedman.html
+RewriteRule social-media-creators/kevin-systrom social-media-creators/kevin-systrom.html
+RewriteRule social-media-creators/pichai-sundararajan social-media-creators/pichai-sundararajan.html
+RewriteRule designers/steve-jobs designers/steve-jobs.html
