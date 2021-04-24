@@ -53,5 +53,5 @@ notableDesigners.addEventListener('click', function() {
 });
 
 famousCryptographers.addEventListener('click', function() {
-    window.location.href = '';
+    window.location.href = 'cryptographers/marian-rejewski.html';
 });
