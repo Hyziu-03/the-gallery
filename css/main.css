@@ -392,7 +392,7 @@ html {
     }
 
 
-    .navigation-item:focus::after {
+    .navigation-item:hover::after {
         clip-path: circle(65% at 80% 20%);
     }
 
