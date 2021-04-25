@@ -118,7 +118,7 @@
 
 .fa-arrow-left {
     position: absolute;
-    top: 175px;
+    top: 45%;
     left: 25px;
     font-size: 1.75rem;
     padding: 10px;
@@ -326,6 +326,9 @@
     .fa-arrow-right {
         right: 5px;
     }
+    .fa-arrow-left {
+        left: 5px;
+    }
 }
 
 @media(max-width:900px) {
@@ -343,6 +346,10 @@
 
     .introduction-image {
         width: 275px;
+    }
+    
+    .fa-arrow-left {
+        left: -5px;
     }
 }
 
@@ -394,6 +401,11 @@
     .fa-arrow-right {
         top: 18%;
         right: 10%;
+    }
+    
+    .fa-arrow-left {
+        top: 18%;
+        left: 10%;
     }
 
     .paragraph-container {
@@ -457,6 +469,11 @@
     .fa-arrow-right {
         top: 16%;
         right: 5%;
+    }
+    
+    .fa-arrow-left {
+        top: 16%;
+        left: 5%;
     }
 }
 
