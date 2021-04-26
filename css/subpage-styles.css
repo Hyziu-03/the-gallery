@@ -425,6 +425,9 @@
     .email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
         transform: translateY(-35px);
     }
+    .newsletter-btn {
+        line-height:1.2;
+    }
 }
 
 @media(max-width:650px) {
