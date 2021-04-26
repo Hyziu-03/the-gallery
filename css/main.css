@@ -399,6 +399,9 @@ html {
     .navigation-item:hover {
         text-shadow: none;
     }
+    .logo{
+        line-height:1;
+    }
 }
 
 @media(max-width:600px) {
