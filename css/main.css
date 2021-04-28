@@ -51,6 +51,7 @@ html {
 .fa-atlas {
     font-weight: 900;
     font-size: 2rem;
+    align-self:center;
     line-height: 150%;
 }
 
@@ -403,7 +404,7 @@ html {
         padding-top:15px;
     }
     .footer-text{
-        padding-top:10px;
+        padding-top:8px;
     }
 }
 
