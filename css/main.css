@@ -51,7 +51,6 @@ html {
 .fa-atlas {
     font-weight: 900;
     font-size: 2rem;
-    align-self:center;
     line-height: 150%;
 }
 
@@ -397,7 +396,11 @@ html {
         text-shadow: none;
     }
     .logo{
-        line-height:190%;
+        line-height:200%;
+    }
+    
+    .fa-atlas{
+        line-height:200%;
     }
     
     .form-button{
