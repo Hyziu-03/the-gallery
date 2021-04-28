@@ -398,6 +398,9 @@ html {
     .navigation-item:hover {
         text-shadow: none;
     }
+    .logo{
+        line-height:200%;
+    }
     
     .form-button{
         padding-top:15px;
