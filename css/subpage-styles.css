@@ -266,22 +266,21 @@
     margin-left: 20px;
     user-select: none;
 }
-
 .newsletter-btn::after {
     content: "";
     position: absolute;
-    top: -2px;
-    left: calc(-100% - 34px);
+    top: 0;
+    left: 0;
     width: calc(100% + 4px);
-    height: calc(100px + 4px);
+    height: calc(100% + 4px);
     background-color: #F26E11;
-    transition: transform .6s cubic-bezier(.6, 2.1, .6, -0.2);
+    clip-path: circle(0% at 0 50%);
+    transition: clip-path .7s;
     z-index: -2;
-    padding: 10px 15px;
 }
 
 .newsletter-btn:hover::after {
-    transform: translateX(calc(100% - 20px));
+    clip-path: circle(140% at 0 50%);
 }
 
 .newsletter-btn:hover {
