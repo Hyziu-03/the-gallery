@@ -427,6 +427,10 @@
     .newsletter-btn {
         padding-top:13px;
     }
+    
+    .newsletter-email {
+        height: 75px;
+    }
 }
 
 @media(max-width:650px) {
