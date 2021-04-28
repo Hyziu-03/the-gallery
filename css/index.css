@@ -1,3 +1,13 @@
+/* ? Inactive Menu Item */
+
+#inactive {
+    cursor: not-allowed;
+}
+
+#inactive:hover {
+    text-shadow: none;
+}
+
 /* ? Landing Page */
 
 .landing-page {
