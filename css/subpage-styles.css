@@ -424,12 +424,9 @@
     .email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
         transform: translateY(-35px);
     }
+    
     .newsletter-btn {
         padding-top:13px;
-    }
-    
-    .newsletter-email {
-        height: 75px;
     }
 }
 
