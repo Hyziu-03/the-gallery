@@ -46,6 +46,7 @@ html {
     transition: .5s all ease;
     margin-left: 30px;
     display: flex;
+    align-items:center;
 }
 
 .fa-atlas {
@@ -394,7 +395,7 @@ html {
         text-shadow: none;
     }
     .logo{
-        line-height:200%;
+        line-height:190%;
     }
     
     .form-button{
