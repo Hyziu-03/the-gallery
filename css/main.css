@@ -69,6 +69,7 @@ html {
 
 .navigation-item,
 .navigation-subpage-item {
+    font-family:"Montserrat","sans-serif";
     padding: 12.5px 17.5px;
     user-select: none;
     transition: .5s all ease;
