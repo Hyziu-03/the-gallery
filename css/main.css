@@ -400,6 +400,9 @@ html {
     .form-button{
         padding-top:15px;
     }
+    .footer{
+        padding-top:5px;
+    }
 }
 
 @media(max-width:600px) {
