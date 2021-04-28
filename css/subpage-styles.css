@@ -486,6 +486,7 @@
 @media(max-width:450px) {
     .paragraph-text {
         width: 250px;
+        font-size:1.2rem;
     }
 
     .paragraph-image {
