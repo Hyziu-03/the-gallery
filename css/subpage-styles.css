@@ -422,13 +422,16 @@
 
     .email-form:focus~.label-email,
     .email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
-        transform: translateY(-70px);
+        transform: translateY(-35px);
     }
     .newsletter-btn {
         padding-top:13px;
     }
     .email-form {
-        line-height:180%;
+        z-index:2;
+    }
+    .newsletter-email{
+        z-index:0;
     }
 }
 
