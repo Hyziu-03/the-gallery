@@ -428,6 +428,9 @@
     .newsletter-btn {
         padding-top:13px;
     }
+    .email-form{
+        padding:10px 0;
+    }
 }
 
 @media(max-width:650px) {
