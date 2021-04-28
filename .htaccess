@@ -7,7 +7,7 @@ Deny from all
 RewriteEngine on
 RewriteRule strona-glowna index.html
 RewriteRule programmers/bill-gates programmers/bill-gates.html
-RewriteRule programmers/ada-augusta-lovelace programmers/ada-lovelace.html
+RewriteRule programmers/ada-lovelace programmers/ada-lovelace.html
 RewriteRule cryptographers/marian-rejewski cryptographers/marian-rejewski.html
 RewriteRule cryptographers/elizabeth-smith-friedman cryptographers/elizabeth-smith-friedman.html
 RewriteRule social-media-creators/kevin-systrom social-media-creators/kevin-systrom.html
