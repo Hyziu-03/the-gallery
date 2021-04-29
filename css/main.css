@@ -349,7 +349,6 @@ html {
 
     .hamburger {
         visibility: visible;
-        top:13px;
     }
 
     .navigation-list {
@@ -446,7 +445,7 @@ html {
 
     .hamburger {
         height: 20px;
-        top: 12px;
+        top: 8px;
         width: 30px;
         right: 30px;
     }
