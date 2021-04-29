@@ -42,19 +42,21 @@ html {
     transition: .5s all ease;
     margin-left: 30px;
     display: flex;
-    align-items:center;
+    align-items: center;
 }
-.logo-name{
+
+.logo-name {
     font-family: "Englebert", sans-serif;
     font-size: 2rem;
     font-weight: 900;
-    margin-left:10px;
+    margin-left: 10px;
 }
+
 .fa-atlas {
     font-weight: 900;
     font-size: 2rem;
     line-height: 150%;
-    align-self:center;
+    align-self: center;
 }
 
 /* ? Klasyczna Nawigacja */
@@ -71,8 +73,8 @@ html {
 
 .navigation-item,
 .navigation-subpage-item {
-    font-family:"Montserrat","sans-serif";
-    font-weight:600;
+    font-family: "Montserrat", "sans-serif";
+    font-weight: 600;
     padding: 12.5px 17.5px;
     user-select: none;
     transition: .5s all ease;
@@ -398,19 +400,22 @@ html {
     .navigation-item:hover {
         text-shadow: none;
     }
-    .logo-name{
-        padding-top:5px;  
-        margin-left:7px;
+
+    .logo-name {
+        padding-top: 5px;
+        margin-left: 7px;
     }
-    .fa-atlas{
-        line-height:100%;
+
+    .fa-atlas {
+        line-height: 100%;
     }
-    
-    .form-button{
-        padding-top:15px;
+
+    .form-button {
+        padding-top: 15px;
     }
-    .footer-text{
-        padding-top:8px;
+
+    .footer-text {
+        padding-top: 8px;
     }
 }
 
@@ -437,9 +442,10 @@ html {
 
     .logo {
         margin-left: 15px;
-        
+
     }
-    .logo-name{
+
+    .logo-name {
         font-size: 1.5rem;
     }
 
@@ -498,10 +504,10 @@ html {
 
 @media(max-width:350px) {
     .logo {
-        margin-left: 10px; 
+        margin-left: 10px;
     }
-    
-    .logo-name{
+
+    .logo-name {
         font-size: 1.3rem;
     }
 

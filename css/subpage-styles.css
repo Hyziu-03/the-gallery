@@ -266,6 +266,7 @@
     margin-left: 20px;
     user-select: none;
 }
+
 .newsletter-btn::after {
     content: "";
     position: absolute;
@@ -325,6 +326,7 @@
     .fa-arrow-right {
         right: 5px;
     }
+
     .fa-arrow-left {
         left: 5px;
     }
@@ -346,7 +348,7 @@
     .introduction-image {
         width: 275px;
     }
-    
+
     .fa-arrow-left {
         left: -5px;
     }
@@ -401,7 +403,7 @@
         top: 18%;
         right: 10%;
     }
-    
+
     .fa-arrow-left {
         top: 18%;
         left: 10%;
@@ -424,9 +426,9 @@
     .email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
         transform: translateY(-35px);
     }
-    
+
     .newsletter-btn {
-        padding-top:13px;
+        padding-top: 13px;
     }
 }
 
@@ -473,7 +475,7 @@
         top: 16%;
         right: 5%;
     }
-    
+
     .fa-arrow-left {
         top: 16%;
         left: 5%;
@@ -483,7 +485,7 @@
 @media(max-width:450px) {
     .paragraph-text {
         width: 250px;
-        font-size:1.2rem;
+        font-size: 1.2rem;
     }
 
     .paragraph-image {

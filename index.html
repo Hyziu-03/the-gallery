@@ -5,10 +5,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE,Edge=1">
 
-	<meta name="description"
-		content="Have you ever really gone through biographies of famous people from the IT industry? Now you can do it quickly and enjoyably. Check us out!">
-	<meta name="keywords"
-		content="famous programmers, social media creators, computer designers, cryptographers, biographies">
+	<meta name="description" content="Have you ever really gone through biographies of famous people from the IT industry? Now you can do it quickly and enjoyably. Check us out!">
+	<meta name="keywords" content="famous programmers, social media creators, computer designers, cryptographers, biographies">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="title" content="The Gallery of Remarkable People">
@@ -22,8 +20,6 @@
 	<link rel="stylesheet" href="css/index.css">
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link href="https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:wght@300&display=swap"
-		rel="stylesheet">
 
 	<!--[if lt IE 9]>
             <script src = "https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity = "sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin = "anonymous"></script>
@@ -44,7 +40,7 @@
 							<li class="navigation-item" id="offer"><a href="#" class="link">Offer</a></li>
 							<li class="navigation-item" id="contact"><a href="#" class="link">Contact</a></li>
 						</ol>
-						<button class="hamburger">
+						<button class="hamburger" aria-label="Hamburger Menu">
 							<span class="line"></span>
 							<span class="line"></span>
 							<span class="line"></span>
@@ -63,14 +59,11 @@
 							<p class="description" tabindex="0">Have you ever really gone through biographies of famous
 								people from the IT industry? Now you can do it quickly and enjoyably. Scroll down for
 								more!</p>
-							<a href="#" tabindex="0" title="Scroll down for more!" id="btn-hand-down" class="link"><i
-									class="far fa-hand-point-down"></i></a>
+							<a href="#" tabindex="0" title="Scroll down for more!" id="btn-hand-down" class="link"><i class="far fa-hand-point-down"></i></a>
 						</div>
 					</div>
-					<div
-						title="The girl is using her yellow portable computer. There is another huge laptop in the background's illustration.">
-						<img src="img/software-engineer.png" class="illustration"
-							alt="The girl is using her yellow portable computer. There is another huge laptop in the background's illustration.">
+					<div title="The girl is using her yellow portable computer. There is another huge laptop in the background's illustration.">
+						<img src="img/software-engineer.png" class="illustration" alt="The girl is using her yellow portable computer. There is another huge laptop in the background's illustration.">
 					</div>
 				</div>
 			</section>
@@ -88,8 +81,8 @@
 			</svg>
 			<section class="category-section">
 				<div class="categories-container" id="categories-container">
-					<p class="categories-introduction" id="categories" tabindex="0">Browse your favorite
-						category!&emsp;<i class="far fa-smile-beam"></i></p>
+					<h3 class="categories-introduction" id="categories" tabindex="0">Browse your favorite
+						category!&emsp;<i class="far fa-smile-beam"></i></h3>
 					<ol class="category-list">
 						<li class="category" id="notable-programmers" tabindex="0">Notable Programmers<br><br><i
 								class="fas category-icon fa-code-branch"></i></li>
@@ -104,8 +97,7 @@
 			</section>
 			<section>
 				<div class="form-container" id="form-container">
-					<p class="form-introduction" tabindex="0">Get in touch with us here...<i
-							class="far fa-paper-plane"></i></p>
+					<h3 class="form-introduction" tabindex="0">Get in touch with us here...<i class="far fa-paper-plane"></i></h3>
 					<div class="form">
 						<div class="form-ilustration">
 							<form method="" action="">
@@ -119,15 +111,14 @@
 								</div>
 								<div class="label-textarea" title="Enter your message here.">
 									<label for="message" class="form-labels">What do you want to tell us?</label>
-									<textarea name="" id=" message" cols="25" rows="7" class="form-textarea"></textarea>
+									<textarea name="" id="message" cols="25" rows="7" class="form-textarea"></textarea>
 								</div>
 							</form>
-							<div title="Here is a huge question mark. In the foreground there are two men.">
-								<img src="img/ask-customer-feedback.png" class="illustration-question"
-									alt="Here is a huge question mark. In the foreground there are two men.">
+							<div title="Here is a huge question mark. In the foreground there are two men." style="margin: 25px 0 0 50px;">
+								<img src="img/ask-customer-feedback.png" class="illustration-question" alt="Here is a huge question mark. In the foreground there are two men.">
 							</div>
 						</div>
-						<button class="form-button" type="submit" title="Submit your form!">
+						<button class="form-button" type="submit" title="Submit your form!" aria-label="Submit Your Form">
 							Submit! <span class="message"><i class="far fa-envelope"></i></span>
 						</button>
 					</div>
@@ -136,8 +127,7 @@
 		</main>
 		<footer>
 			<div class="footer">
-				<p class="footer-text" tabindex="0">All rights reserved &emsp; &copy; &emsp; Filip Kubala / Szymon
-					Hyziak</p>
+				<p class="footer-text" tabindex="0">All rights reserved &emsp; &copy; &emsp; Filip Kubala / Szymon Hyziak</p>
 				<p class="social-media-icons">
 					<a href="https://www.facebook.com/" class="link" target="_blank"><i class="fab fa-facebook"
 							id="facebook" title="Facebook"></i></a> &emsp;
@@ -155,6 +145,8 @@
 	<script src="js/links-with-offset.js" defer></script>
 	<script src="https://kit.fontawesome.com/d1ae74e7ee.js" crossorigin="anonymous" defer></script>
 	<script src="js/navbar-mobile.js" defer></script>
+
+	<link href="https://fonts.googleapis.com/css2?family=Englebert&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </body>
 
 </html>

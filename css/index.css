@@ -115,6 +115,7 @@
     font-size: 1.75rem;
     text-align: center;
     margin: 25px 0;
+    font-weight: normal;
 }
 
 .category {
@@ -153,6 +154,7 @@
     font-size: 1.75rem;
     text-align: center;
     font-family: "Englebert", sans-serif;
+    font-weight: normal;
 }
 
 .fa-paper-plane {
