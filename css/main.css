@@ -39,16 +39,16 @@ html {
 }
 
 .logo {
-    font-family: "Englebert", sans-serif;
-    font-size: 2rem;
-    font-weight: 900;
-    line-height: 150%;
     transition: .5s all ease;
     margin-left: 30px;
     display: flex;
     align-items:center;
 }
-
+.logo-name{
+    font-family: "Englebert", sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
+}
 .fa-atlas {
     font-weight: 900;
     font-size: 2rem;
@@ -397,10 +397,6 @@ html {
     .navigation-item:hover {
         text-shadow: none;
     }
-    .logo{
-        line-height:100%;
-    }
-    
     .fa-atlas{
         line-height:100%;
     }
@@ -436,6 +432,9 @@ html {
 
     .logo {
         margin-left: 15px;
+        
+    }
+    .logo-name{
         font-size: 1.5rem;
     }
 
@@ -494,7 +493,10 @@ html {
 
 @media(max-width:350px) {
     .logo {
-        margin-left: 10px;
+        margin-left: 10px; 
+    }
+    
+    .logo-name{
         font-size: 1.3rem;
     }
 
@@ -533,7 +535,7 @@ html {
         font-size: 10px;
     }
 
-    .logo {
+    .logo-name {
         font-size: 1.2rem;
     }
 }
