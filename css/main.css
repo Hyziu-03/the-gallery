@@ -313,6 +313,10 @@ html {
         width: 65vw;
     }
 
+    .illustration-container {
+        margin: 0;
+    }
+
     .illustration-question {
         display: none;
     }

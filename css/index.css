@@ -217,6 +217,10 @@
     background-color: #C5C6C5;
 }
 
+.illustration-container {
+    margin: 25px 0 0 50px;
+}
+
 .illustration-question {
     align-self: center;
     width: 300px;

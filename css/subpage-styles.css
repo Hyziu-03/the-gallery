@@ -165,7 +165,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    text-align: justify;
     text-align-last: center;
     border-radius: 30px;
     padding: 60px 20px;
@@ -183,7 +182,6 @@
     width: 350px;
     font-family: "Montserrat", sans-serif;
     line-height: 2.0;
-    text-align: justify;
     text-align-last: auto;
 }
 
