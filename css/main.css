@@ -320,6 +320,9 @@ html {
     .illustration-question {
         display: none;
     }
+    .category:hover{
+        box-shadow:none;
+    }
 }
 
 @media(max-width: 730px) {
@@ -499,6 +502,7 @@ html {
 
     .form-inputs {
         margin-top: 10px;
+        margin-left:0;
     }
 
     .label-textarea {
