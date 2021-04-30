@@ -154,7 +154,7 @@
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 0.65rem;
+    font-size: 0.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,7 +223,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border: 5px solid #F26E11;
+    border: 3px solid #F26E11;
     border-radius: 20px;
     background-color: #E9EAE9;
     outline: none;
@@ -423,11 +423,11 @@
 
     .email-form:focus~.label-email,
     .email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
-        transform: translateY(-35px);
+        transform: translateY(-45px);
     }
 
     .newsletter-btn {
-        padding-top: 13px;
+        padding-top: 10px;
     }
 }
 
@@ -508,7 +508,7 @@
     }
     
     .email-form {
-        font-size:10px;
+        font-size: 1.4rem;
     }
 }
 
