@@ -183,6 +183,7 @@
     font-family: "Montserrat", sans-serif;
     line-height: 2.0;
     text-align-last: auto;
+    text-align:justify;
 }
 
 /* ? Newsletter Tile */
@@ -504,6 +505,10 @@
 
     .filler {
         line-height: 1.5;
+    }
+    
+    .email-form {
+        font-size:10px;
     }
 }
 
