@@ -575,5 +575,7 @@ html {
 /* ? An attempt to make buttons' texts centered. */
 
 button {
-    vertical-align: middle !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
