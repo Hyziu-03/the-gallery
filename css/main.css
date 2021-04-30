@@ -571,11 +571,3 @@ html {
     text-decoration: none;
     color: inherit;
 }
-
-/* ? An attempt to make buttons' texts centered. */
-
-button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
