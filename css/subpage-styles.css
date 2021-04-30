@@ -183,14 +183,14 @@
     font-family: "Montserrat", sans-serif;
     line-height: 2.0;
     text-align-last: auto;
-    text-align:justify;
+    text-align: justify;
 }
 
 /* ? Newsletter Tile */
 
 .newsletter {
     background: #149EBC36;
-    padding: 30px 0;
+    padding: 40px 0;
     margin: 80px 0 40px 0;
     display: flex;
     justify-content: space-evenly;
@@ -410,6 +410,7 @@
 
     .paragraph-container {
         width: 70vw;
+        margin-bottom: 20px;
     }
 
     .paragraph {
@@ -423,11 +424,15 @@
 
     .email-form:focus~.label-email,
     .email-form:not(:placeholder-shown).email-form:not(:focus)~.label-email {
-        transform: translateY(-45px);
+        transform: translateY(-40px);
     }
 
     .newsletter-btn {
         padding-top: 10px;
+    }
+
+    .newsletter {
+        display: none;
     }
 }
 
@@ -506,7 +511,7 @@
     .filler {
         line-height: 1.5;
     }
-    
+
     .email-form {
         font-size: 12px;
     }
