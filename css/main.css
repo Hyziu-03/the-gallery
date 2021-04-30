@@ -571,3 +571,9 @@ html {
     text-decoration: none;
     color: inherit;
 }
+
+/* ? An attempt to make buttons' texts centered. */
+
+button {
+    vertical-align: middle !important;
+}
