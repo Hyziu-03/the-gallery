@@ -55,7 +55,7 @@
     align-items: center;
     background: #014C78;
     border-radius: 25px;
-    padding: 17.5px 30px 12.5px 30px;
+    padding: 12.5px 30px 12.5px 30px;
     font-family: 'Englebert', sans-serif;
     color: #E9EAE9;
     font-size: 1.15rem;
@@ -416,7 +416,7 @@
     .paragraph {
         flex-direction: column;
         align-items: center;
-        margin-bottom:35px;
+        margin-bottom: 35px;
     }
 
     .paragraph-text {
@@ -430,6 +430,10 @@
     
     .newsletter {
         display: none;
+    }
+
+    .learn-more-btn {
+        padding: 17.5px 30px 12.5px 30px;
     }
 }
 
